@@ -13,6 +13,7 @@
 		4170468027C65A05009E90A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170467F27C65A05009E90A1 /* HomeView.swift */; };
 		4170468227C65B13009E90A1 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468127C65B13009E90A1 /* SidebarView.swift */; };
 		4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4170468327C665B4009E90A1 /* ReminderModel.xcdatamodeld */; };
+		4170468827C666FF009E90A1 /* RemiderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468727C666FF009E90A1 /* RemiderList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4170467F27C65A05009E90A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4170468127C65B13009E90A1 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		4170468427C665B4009E90A1 /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
+		4170468727C666FF009E90A1 /* RemiderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemiderList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,12 @@
 		4170466E27C657C8009E90A1 /* SimpleReminders */ = {
 			isa = PBXGroup;
 			children = (
+				4170468627C666E5009E90A1 /* Models */,
 				4170467E27C659EE009E90A1 /* Views */,
 				4170466F27C657C8009E90A1 /* SimpleRemindersApp.swift */,
 				4170467327C657CC009E90A1 /* Assets.xcassets */,
 				4170467827C657CC009E90A1 /* SimpleReminders.entitlements */,
+				4170468327C665B4009E90A1 /* ReminderModel.xcdatamodeld */,
 				4170467527C657CC009E90A1 /* Preview Content */,
 			);
 			path = SimpleReminders;
@@ -77,10 +81,17 @@
 			isa = PBXGroup;
 			children = (
 				4170467F27C65A05009E90A1 /* HomeView.swift */,
-				4170468327C665B4009E90A1 /* ReminderModel.xcdatamodeld */,
 				4170468127C65B13009E90A1 /* SidebarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4170468627C666E5009E90A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4170468727C666FF009E90A1 /* RemiderList.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */,
 				4170467027C657C8009E90A1 /* SimpleRemindersApp.swift in Sources */,
 				4170468227C65B13009E90A1 /* SidebarView.swift in Sources */,
+				4170468827C666FF009E90A1 /* RemiderList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
