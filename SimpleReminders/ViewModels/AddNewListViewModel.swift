@@ -23,9 +23,21 @@ class AddNewListViewModel: ObservableObject {
     
     func save () {
         
-        let reminderList = ReminderList(context: context)
-        reminderList.name = name
-        reminderList.color = NSColor(color)
+        do {
+            
+            let reminderList = ReminderList(context: context)
+            reminderList.name = name
+            reminderList.color = NSColor(color)
+            try reminderList.save()
+            
+        } catch {
+            
+            print(error)
+            
+        }
+        
+        
+        
         
         
         

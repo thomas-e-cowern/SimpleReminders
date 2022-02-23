@@ -10,7 +10,7 @@ import CoreData
 import AppKit
 
 @objc (ReminderList)
-class ReminderList: NSManagedObject {
+class ReminderList: NSManagedObject, BaseModel {
     
 }
 

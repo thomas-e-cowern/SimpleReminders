@@ -16,6 +16,7 @@
 		4170468827C666FF009E90A1 /* RemiderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468727C666FF009E90A1 /* RemiderList.swift */; };
 		4170468B27C669CC009E90A1 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468A27C669CC009E90A1 /* CoreDataManager.swift */; };
 		4170468E27C66C11009E90A1 /* AddNewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468D27C66C11009E90A1 /* AddNewListViewModel.swift */; };
+		4170469027C66E32009E90A1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468F27C66E32009E90A1 /* BaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4170468727C666FF009E90A1 /* RemiderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemiderList.swift; sourceTree = "<group>"; };
 		4170468A27C669CC009E90A1 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		4170468D27C66C11009E90A1 /* AddNewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListViewModel.swift; sourceTree = "<group>"; };
+		4170468F27C66E32009E90A1 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4170468727C666FF009E90A1 /* RemiderList.swift */,
+				4170468F27C66E32009E90A1 /* BaseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */,
 				4170467027C657C8009E90A1 /* SimpleRemindersApp.swift in Sources */,
 				4170468227C65B13009E90A1 /* SidebarView.swift in Sources */,
+				4170469027C66E32009E90A1 /* BaseModel.swift in Sources */,
 				4170468827C666FF009E90A1 /* RemiderList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
