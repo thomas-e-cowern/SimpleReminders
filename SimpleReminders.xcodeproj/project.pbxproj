@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4170467027C657C8009E90A1 /* SimpleRemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170466F27C657C8009E90A1 /* SimpleRemindersApp.swift */; };
-		4170467227C657C8009E90A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170467127C657C8009E90A1 /* ContentView.swift */; };
 		4170467427C657CC009E90A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4170467327C657CC009E90A1 /* Assets.xcassets */; };
 		4170467727C657CC009E90A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4170467627C657CC009E90A1 /* Preview Assets.xcassets */; };
+		4170468027C65A05009E90A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170467F27C65A05009E90A1 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4170466C27C657C7009E90A1 /* SimpleReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4170466F27C657C8009E90A1 /* SimpleRemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRemindersApp.swift; sourceTree = "<group>"; };
-		4170467127C657C8009E90A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4170467327C657CC009E90A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4170467627C657CC009E90A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4170467827C657CC009E90A1 /* SimpleReminders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleReminders.entitlements; sourceTree = "<group>"; };
+		4170467F27C65A05009E90A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		4170466E27C657C8009E90A1 /* SimpleReminders */ = {
 			isa = PBXGroup;
 			children = (
+				4170467E27C659EE009E90A1 /* Views */,
 				4170466F27C657C8009E90A1 /* SimpleRemindersApp.swift */,
-				4170467127C657C8009E90A1 /* ContentView.swift */,
 				4170467327C657CC009E90A1 /* Assets.xcassets */,
 				4170467827C657CC009E90A1 /* SimpleReminders.entitlements */,
 				4170467527C657CC009E90A1 /* Preview Content */,
@@ -67,6 +67,14 @@
 				4170467627C657CC009E90A1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4170467E27C659EE009E90A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4170467F27C65A05009E90A1 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4170467227C657C8009E90A1 /* ContentView.swift in Sources */,
+				4170468027C65A05009E90A1 /* HomeView.swift in Sources */,
 				4170467027C657C8009E90A1 /* SimpleRemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
