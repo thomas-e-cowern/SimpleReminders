@@ -11,6 +11,7 @@
 		4170467427C657CC009E90A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4170467327C657CC009E90A1 /* Assets.xcassets */; };
 		4170467727C657CC009E90A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4170467627C657CC009E90A1 /* Preview Assets.xcassets */; };
 		4170468027C65A05009E90A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170467F27C65A05009E90A1 /* HomeView.swift */; };
+		4170468227C65B13009E90A1 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468127C65B13009E90A1 /* SidebarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4170467627C657CC009E90A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4170467827C657CC009E90A1 /* SimpleReminders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleReminders.entitlements; sourceTree = "<group>"; };
 		4170467F27C65A05009E90A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4170468127C65B13009E90A1 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				4170467F27C65A05009E90A1 /* HomeView.swift */,
+				4170468127C65B13009E90A1 /* SidebarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				4170468027C65A05009E90A1 /* HomeView.swift in Sources */,
 				4170467027C657C8009E90A1 /* SimpleRemindersApp.swift in Sources */,
+				4170468227C65B13009E90A1 /* SidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
