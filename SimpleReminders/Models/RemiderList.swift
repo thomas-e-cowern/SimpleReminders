@@ -12,6 +12,12 @@ import AppKit
 @objc (ReminderList)
 class ReminderList: NSManagedObject, BaseModel {
     
+    static var allReminders: NSFetchRequest<ReminderList> {
+        let request: NSFetchRequest<ReminderList> = ReminderList.fetchRequest()
+        request.sortDescriptors = []
+        return request
+    }
+    
 }
 
 extension ReminderList {

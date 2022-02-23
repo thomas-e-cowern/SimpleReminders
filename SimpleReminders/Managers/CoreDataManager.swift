@@ -15,6 +15,8 @@ class CoreDataManager {
     
     private init () {
         
+        ValueTransformer.setValueTransformer(NSColorTransformer(), forName: NSValueTransformerName("NSColorTransformer"))
+        
         persistentContainer = NSPersistentContainer(name: "ReminderModel")
         persistentContainer.loadPersistentStores { description, error in
             if let error = error {

@@ -19,6 +19,8 @@
 		4170469027C66E32009E90A1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468F27C66E32009E90A1 /* BaseModel.swift */; };
 		4170469227C67712009E90A1 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170469127C67712009E90A1 /* AddNewListView.swift */; };
 		4170469427C6793E009E90A1 /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170469327C6793E009E90A1 /* ColorListView.swift */; };
+		4170469727C6868A009E90A1 /* NSColorTransformet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170469627C6868A009E90A1 /* NSColorTransformet.swift */; };
+		4170469927C6970E009E90A1 /* RemindersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170469827C6970E009E90A1 /* RemindersViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		4170468F27C66E32009E90A1 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		4170469127C67712009E90A1 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		4170469327C6793E009E90A1 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
+		4170469627C6868A009E90A1 /* NSColorTransformet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColorTransformet.swift; sourceTree = "<group>"; };
+		4170469827C6970E009E90A1 /* RemindersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		4170466E27C657C8009E90A1 /* SimpleReminders */ = {
 			isa = PBXGroup;
 			children = (
+				4170469527C6866F009E90A1 /* Transformers */,
 				4170468C27C66BF9009E90A1 /* ViewModels */,
 				4170468927C669B1009E90A1 /* Managers */,
 				4170468627C666E5009E90A1 /* Models */,
@@ -121,8 +126,17 @@
 			isa = PBXGroup;
 			children = (
 				4170468D27C66C11009E90A1 /* AddNewListViewModel.swift */,
+				4170469827C6970E009E90A1 /* RemindersViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4170469527C6866F009E90A1 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				4170469627C6868A009E90A1 /* NSColorTransformet.swift */,
+			);
+			path = Transformers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4170469927C6970E009E90A1 /* RemindersViewModel.swift in Sources */,
 				4170468B27C669CC009E90A1 /* CoreDataManager.swift in Sources */,
 				4170468E27C66C11009E90A1 /* AddNewListViewModel.swift in Sources */,
 				4170468027C65A05009E90A1 /* HomeView.swift in Sources */,
+				4170469727C6868A009E90A1 /* NSColorTransformet.swift in Sources */,
 				4170469227C67712009E90A1 /* AddNewListView.swift in Sources */,
 				4170469427C6793E009E90A1 /* ColorListView.swift in Sources */,
 				4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */,
