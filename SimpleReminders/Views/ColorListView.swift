@@ -8,13 +8,27 @@
 import SwiftUI
 
 struct ColorListView: View {
+    
+    let colors = [Color.red, Color.orange, Color.green, Color.blue, Color.purple]
+    @Binding var selectedColor: Color
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            ForEach(colors, id: \.self) { color in
+                Image(systemName: selectedColor == color ? "record.circle" : "record.circle.fill")
+                    .foregroundColor(color)
+                    .font(.system(size: 16))
+                    .clipShape(Circle())
+                    .onTapGesture {
+                        selectedColor = color
+                    }
+            }
+        }
     }
 }
 
 struct ColorListView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorListView()
+        ColorListView(selectedColor: .constant(.blue))
     }
 }
