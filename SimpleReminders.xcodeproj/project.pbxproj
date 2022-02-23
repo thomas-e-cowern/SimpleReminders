@@ -15,6 +15,7 @@
 		4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4170468327C665B4009E90A1 /* ReminderModel.xcdatamodeld */; };
 		4170468827C666FF009E90A1 /* RemiderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468727C666FF009E90A1 /* RemiderList.swift */; };
 		4170468B27C669CC009E90A1 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468A27C669CC009E90A1 /* CoreDataManager.swift */; };
+		4170468E27C66C11009E90A1 /* AddNewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468D27C66C11009E90A1 /* AddNewListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4170468427C665B4009E90A1 /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
 		4170468727C666FF009E90A1 /* RemiderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemiderList.swift; sourceTree = "<group>"; };
 		4170468A27C669CC009E90A1 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4170468D27C66C11009E90A1 /* AddNewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		4170466E27C657C8009E90A1 /* SimpleReminders */ = {
 			isa = PBXGroup;
 			children = (
+				4170468C27C66BF9009E90A1 /* ViewModels */,
 				4170468927C669B1009E90A1 /* Managers */,
 				4170468627C666E5009E90A1 /* Models */,
 				4170467E27C659EE009E90A1 /* Views */,
@@ -103,6 +106,14 @@
 				4170468A27C669CC009E90A1 /* CoreDataManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		4170468C27C66BF9009E90A1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4170468D27C66C11009E90A1 /* AddNewListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4170468B27C669CC009E90A1 /* CoreDataManager.swift in Sources */,
+				4170468E27C66C11009E90A1 /* AddNewListViewModel.swift in Sources */,
 				4170468027C65A05009E90A1 /* HomeView.swift in Sources */,
 				4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */,
 				4170467027C657C8009E90A1 /* SimpleRemindersApp.swift in Sources */,
