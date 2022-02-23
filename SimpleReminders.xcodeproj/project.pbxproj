@@ -12,6 +12,7 @@
 		4170467727C657CC009E90A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4170467627C657CC009E90A1 /* Preview Assets.xcassets */; };
 		4170468027C65A05009E90A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170467F27C65A05009E90A1 /* HomeView.swift */; };
 		4170468227C65B13009E90A1 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468127C65B13009E90A1 /* SidebarView.swift */; };
+		4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4170468327C665B4009E90A1 /* ReminderModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4170467827C657CC009E90A1 /* SimpleReminders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleReminders.entitlements; sourceTree = "<group>"; };
 		4170467F27C65A05009E90A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4170468127C65B13009E90A1 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		4170468427C665B4009E90A1 /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				4170467F27C65A05009E90A1 /* HomeView.swift */,
+				4170468327C665B4009E90A1 /* ReminderModel.xcdatamodeld */,
 				4170468127C65B13009E90A1 /* SidebarView.swift */,
 			);
 			path = Views;
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4170468027C65A05009E90A1 /* HomeView.swift in Sources */,
+				4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */,
 				4170467027C657C8009E90A1 /* SimpleRemindersApp.swift in Sources */,
 				4170468227C65B13009E90A1 /* SidebarView.swift in Sources */,
 			);
@@ -350,6 +354,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4170468327C665B4009E90A1 /* ReminderModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4170468427C665B4009E90A1 /* ReminderModel.xcdatamodel */,
+			);
+			currentVersion = 4170468427C665B4009E90A1 /* ReminderModel.xcdatamodel */;
+			path = ReminderModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4170466427C657C7009E90A1 /* Project object */;
 }

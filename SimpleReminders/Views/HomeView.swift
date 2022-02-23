@@ -10,9 +10,10 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationView {
-            Text("Reminder List")
+            SidebarView()
             Text("Actual Reminders")
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 

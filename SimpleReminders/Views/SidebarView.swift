@@ -9,7 +9,22 @@ import SwiftUI
 
 struct SidebarView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Reminders Count")
+            
+            Spacer()
+            
+            ForEach(1...5, id: \.self) { item in
+                Text("Reminder \(item)")
+            }
+            
+            Spacer()
+            
+            Button("Add List") {
+                
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
