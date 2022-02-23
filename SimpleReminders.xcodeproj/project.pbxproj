@@ -17,6 +17,7 @@
 		4170468B27C669CC009E90A1 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468A27C669CC009E90A1 /* CoreDataManager.swift */; };
 		4170468E27C66C11009E90A1 /* AddNewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468D27C66C11009E90A1 /* AddNewListViewModel.swift */; };
 		4170469027C66E32009E90A1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170468F27C66E32009E90A1 /* BaseModel.swift */; };
+		4170469227C67712009E90A1 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170469127C67712009E90A1 /* AddNewListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4170468A27C669CC009E90A1 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		4170468D27C66C11009E90A1 /* AddNewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListViewModel.swift; sourceTree = "<group>"; };
 		4170468F27C66E32009E90A1 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		4170469127C67712009E90A1 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				4170467F27C65A05009E90A1 /* HomeView.swift */,
 				4170468127C65B13009E90A1 /* SidebarView.swift */,
+				4170469127C67712009E90A1 /* AddNewListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				4170468B27C669CC009E90A1 /* CoreDataManager.swift in Sources */,
 				4170468E27C66C11009E90A1 /* AddNewListViewModel.swift in Sources */,
 				4170468027C65A05009E90A1 /* HomeView.swift in Sources */,
+				4170469227C67712009E90A1 /* AddNewListView.swift in Sources */,
 				4170468527C665B4009E90A1 /* ReminderModel.xcdatamodeld in Sources */,
 				4170467027C657C8009E90A1 /* SimpleRemindersApp.swift in Sources */,
 				4170468227C65B13009E90A1 /* SidebarView.swift in Sources */,
